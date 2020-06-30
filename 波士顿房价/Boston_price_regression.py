@@ -43,6 +43,8 @@ feature_names= dataSet['feature_names']
 #     file = csv.writer(f)
 #     file.writerow(feature_names)
 #     file.writerows(data_X)
+    # file.writerow(["MEDV"])
+    # file.writerow(data_y)
 
 # 划分训练、测试数据
 X_train,X_test,y_train,y_test = train_test_split(data_X,data_y,test_size=0.2) # 将20%的样本划分为测试集，80%为训练集，即test_size=0.2
